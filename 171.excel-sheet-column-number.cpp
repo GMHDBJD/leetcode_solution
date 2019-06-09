@@ -4,6 +4,10 @@
  * [171] Excel Sheet Column Number
  */
 
+/*
+easy
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,9 +16,11 @@ class Solution
 public:
     int titleToNumber(string s)
     {
-        for(int i=s.size()-1;i>=0;--i)
+        int result=0;
+        for (auto &&i : s)
         {
-
+           result=26*result+(i-'A')+1; 
         }
+        return result;
     }
 };
