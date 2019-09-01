@@ -3,6 +3,9 @@
 --
 -- [176] Second Highest Salary
 --
+
+-- nested select
+
 # Write your MySQL query statement below
 
 SELECT max(Salary) as SecondHighestSalary

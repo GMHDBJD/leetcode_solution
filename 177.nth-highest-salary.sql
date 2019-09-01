@@ -3,6 +3,9 @@
 --
 -- [177] Nth Highest Salary
 --
+
+-- order ,limit
+
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   DECLARE M INT;
